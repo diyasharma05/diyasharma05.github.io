@@ -236,7 +236,7 @@ ul, ol { margin: 0; padding: 0; }
 .tile-sub { font-size: .85rem; opacity: .85; margin-top: .35rem; }
 
 /* awards */
-.awards { list-style: none; display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+.awards { list-style: none; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
 @media (max-width: 820px) { .awards { grid-template-columns: 1fr; } }
 .awards li {
   display: grid; grid-template-columns: auto 1fr; gap: 1rem; align-items: start;
