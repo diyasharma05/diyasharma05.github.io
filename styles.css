@@ -197,6 +197,8 @@ ul, ol { margin: 0; padding: 0; }
 .tl-body h3 { font-size: 1.2rem; font-weight: 700; margin-bottom: .35rem; }
 .tl-body .at { color: var(--text-muted); font-weight: 400; }
 .tl-note { color: var(--text-muted); font-size: .95rem; margin-bottom: .6rem; }
+.tl-desc { margin: 0; max-width: 60ch; color: var(--text); }
+.section-foot { margin: 1.4rem 0 0; color: var(--text-muted); font-size: .95rem; }
 .tl-body ul { list-style: none; display: grid; gap: .45rem; }
 .tl-body li { position: relative; padding-left: 1.15rem; color: var(--text); }
 .tl-body li::before { content: ""; position: absolute; left: 0; top: .7em; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
