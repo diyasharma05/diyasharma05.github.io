@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Diya Sharma - Engineer, Researcher, Poet</title>
+  <meta name="description" content="Portfolio of Diya Sharma: data infrastructure, machine learning and robotics projects, publications, and experience. Student at IIT Kharagpur." />
+  <meta name="author" content="Diya Sharma" />
+  <link rel="canonical" href="https://diyasharma05.github.io/" />
+  <meta name="theme-color" content="#0d9488" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Diya Sharma - Engineer, Researcher, Poet" />
+  <meta property="og:description" content="Data infrastructure, machine learning and robotics. Student at IIT Kharagpur." />
+  <meta property="og:url" content="https://diyasharma05.github.io/" />
+  <meta property="og:image" content="https://diyasharma05.github.io/assets/og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    // Apply saved theme before paint to avoid a flash.
+    (function () {
+      var t = localStorage.getItem("theme");
+      if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <a class="brand" href="#top">Diya Sharma</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">
+            <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4m11.4-11.4 1.4-1.4"/></svg>
+            <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===================== HERO ===================== -->
+    <section id="top" class="hero container">
+      <div class="hero-text">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Diya Sharma</h1>
+        <p class="tagline">Engineer · Researcher · Poet · Classical Vocalist</p>
+        <p class="lead">
+          I like owning the whole journey of data, from the sensor that emits the first byte to the
+          model and the dashboard that make sense of it. Currently a student at
+          <strong>IIT Kharagpur</strong>.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">See my work</a>
+          <a class="btn btn-ghost" href="https://github.com/diyasharma05" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5C5.7.5.5 5.7.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11 11 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.9C23.5 5.7 18.3.5 12 .5Z"/></svg>
+            GitHub
+          </a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/diya-sharma-6a2210272/" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.4 20.4h-3.5v-5.6c0-1.3 0-3-1.9-3s-2.1 1.4-2.1 2.9v5.7H9.4V9h3.4v1.6c.5-.9 1.6-1.9 3.4-1.9 3.6 0 4.3 2.4 4.3 5.5v6.2ZM5.3 7.4a2.1 2.1 0 1 1 0-4.1 2.1 2.1 0 0 1 0 4.1ZM7.1 20.4H3.6V9h3.5v11.4ZM22.2 0H1.8C.8 0 0 .8 0 1.7v20.5c0 1 .8 1.8 1.8 1.8h20.4c1 0 1.8-.8 1.8-1.8V1.7C24 .8 23.2 0 22.2 0Z"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-ring">
+          <img src="assets/diya.jpg" alt="Diya Sharma at Amer Fort, Jaipur" width="320" height="320" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section id="about" class="section container reveal">
+      <div class="section-head">
+        <h2>About</h2>
+        <p class="section-sub">A short version.</p>
+      </div>
+      <div class="about-grid">
+        <p class="about-text">
+          Hello! I'm Diya Sharma, an engineer and a researcher who likes owning the whole journey of data,
+          from the sensor that emits the first byte to the model and the dashboard that make sense of it.
+          I'm currently a student at <strong>IIT Kharagpur</strong>. Beyond the technical side, I'm also a
+          poet, a trained classical vocalist, and a badminton player, which keeps the journey creative.
+        </p>
+        <div class="about-aside">
+          <h3>Beyond the keyboard</h3>
+          <ul class="chips">
+            <li>Poetry</li>
+            <li>Classical vocals</li>
+            <li>Badminton, Inter-Hall silver 2025-26</li>
+            <li>Journalism, Yuva Sampadak 2016</li>
+            <li>Public speaking</li>
+            <li>Mentoring first-years</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section id="experience" class="section container reveal">
+      <div class="section-head">
+        <h2>Experience</h2>
+        <p class="section-sub">Where I've built things.</p>
+      </div>
+      <ol class="timeline">
+        <li class="tl-item">
+          <div class="tl-meta">
+            <span class="tl-date">May 2026 - Aug 2026</span>
+            <span class="tl-place">Pune, India</span>
+          </div>
+          <div class="tl-body">
+            <h3>Founding Engineer <span class="at">at</span> Intelligence Factory <span class="pill">YC 2026</span></h3>
+            <p class="tl-note">Awarded a pre-placement offer.</p>
+            <ul>
+              <li>Built the ingestion, cloud, and quality-control pipelines that process 2.4 TB+ of sensor data a day across 40 edge devices on AWS (EKS, PostgreSQL).</li>
+              <li>Fused five multimodal sensors into one nanosecond-synced pipeline, cutting raw throughput by 99.6% (1 GB/s to 4 MB/s) with FFV1, H.265 and RLV encoding.</li>
+              <li>Automated a four-tier QC framework with confidence scores over 15+ edge parameters, and brought latency down 20x (120 ms to 6 ms).</li>
+            </ul>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-meta">
+            <span class="tl-date">May 2025 - Jul 2025</span>
+            <span class="tl-place">Gurugram, India</span>
+          </div>
+          <div class="tl-body">
+            <h3>Data Science Intern <span class="at">at</span> Ixigo</h3>
+            <ul>
+              <li>Unified 30+ dashboards over 1M+ monthly records into a natural-language, Text-to-SQL interface on ClickHouse with LangChain and Llama-3.</li>
+              <li>Mined 10k+ reviews for sentiment and topics with BERT, spaCy and Gensim, then joined those signals with SQL schemas for funnel insights on 25k+ daily bookings.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-meta">
+            <span class="tl-date">Oct 2024 - Mar 2025</span>
+            <span class="tl-place">Munich, Germany</span>
+          </div>
+          <div class="tl-body">
+            <h3>Research Intern <span class="at">at</span> Technical University of Munich</h3>
+            <ul>
+              <li>Trained reinforcement-learning locomotion policies for quadrupeds with domain randomisation and reward shaping, improving gait stability by 25%.</li>
+              <li>Cut sim-to-real transfer error by 18% with PyBullet and ROS, and built inverse kinematics and trajectory planning for multi-gait control.</li>
+            </ul>
+          </div>
+        </li>
+        <li class="tl-item">
+          <div class="tl-meta">
+            <span class="tl-date">May 2024 - Aug 2024</span>
+            <span class="tl-place">Pasadena, California</span>
+          </div>
+          <div class="tl-body">
+            <h3>Live Project <span class="at">with</span> California Institute of Technology</h3>
+            <ul>
+              <li>Built an end-to-end industrial defect-detection pipeline with YOLO and a fine-tuned Segment Anything model, reaching a 0.65 F1 score.</li>
+              <li>Cut SAM candidate boxes from 1000 to 30 with morphological dilation and Gaussian blur, sharpening defect localisation.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section id="projects" class="section container reveal">
+      <div class="section-head">
+        <h2>Projects</h2>
+        <p class="section-sub">Selected work, all open on GitHub.</p>
+      </div>
+      <div class="cards">
+        <article class="card">
+          <a class="card-media tile tile-a" href="https://github.com/diyasharma05/rationale-ai" target="_blank" rel="noopener" aria-label="Rationale.AI on GitHub">
+            <span class="tile-mark">R.ai</span>
+            <span class="tile-sub">4-level reasoning pyramid</span>
+          </a>
+          <div class="card-body">
+            <h3><a href="https://github.com/diyasharma05/rationale-ai" target="_blank" rel="noopener">Rationale.AI</a></h3>
+            <p>A confidence-driven KPI intelligence-to-action engine. Detects material KPI movements with SQL, statistics and machine learning, climbs a four-level reasoning pyramid with a confidence gate at each step, and lets the language model write only the sentences. Finalist, Accenture Innovation Challenge 2026.</p>
+            <ul class="tags"><li>Python</li><li>DuckDB</li><li>scikit-learn</li><li>Streamlit</li><li>LLMs</li></ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <a class="card-media" href="https://github.com/diyasharma05/Self-Driving-Car-Project" target="_blank" rel="noopener" aria-label="Perception System for Autonomous Vehicles on GitHub">
+            <img src="assets/projects/self-driving.jpg" alt="YOLOv3 detections drawn on a street scene" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <h3><a href="https://github.com/diyasharma05/Self-Driving-Car-Project" target="_blank" rel="noopener">Perception for Autonomous Vehicles</a></h3>
+            <p>Three building blocks of a self-driving perception stack: YOLOv3 object detection in Keras, Deep SORT multi-object tracking on video, and a Multi-Task Attention Network for joint segmentation and depth on Cityscapes.</p>
+            <ul class="tags"><li>Keras</li><li>PyTorch</li><li>OpenCV</li><li>Cityscapes</li></ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <a class="card-media" href="https://github.com/diyasharma05/Fabric_Detection" target="_blank" rel="noopener" aria-label="Fabric Defect Detection on GitHub">
+            <img src="assets/projects/fabric.jpg" alt="YOLOv8 segmentation masks over fabric defects" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <h3><a href="https://github.com/diyasharma05/Fabric_Detection" target="_blank" rel="noopener">Fabric Defect Detection</a></h3>
+            <p>Two routes to finding defects on textiles: YOLOv8 instance segmentation, and a Segment Anything model whose mask decoder is fine-tuned with box prompts generated automatically from ground-truth masks.</p>
+            <ul class="tags"><li>PyTorch</li><li>Ultralytics</li><li>Hugging Face</li><li>OpenCV</li></ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <a class="card-media tile tile-b" href="https://github.com/diyasharma05/Layer-10-Memory-Issues-Github-Issues-Graph" target="_blank" rel="noopener" aria-label="Layer 10 Memory on GitHub">
+            <span class="tile-mark">L10</span>
+            <span class="tile-sub">issues to knowledge graph</span>
+          </a>
+          <div class="card-body">
+            <h3><a href="https://github.com/diyasharma05/Layer-10-Memory-Issues-Github-Issues-Graph" target="_blank" rel="noopener">Layer 10 Memory: GitHub Issues Graph</a></h3>
+            <p>A long-term memory system that turns raw GitHub issues into a knowledge graph: schema-enforced LLM extraction, entity and claim deduplication with provenance, a Neo4j and NetworkX graph, and hybrid FAISS retrieval with graph expansion.</p>
+            <ul class="tags"><li>Python</li><li>Neo4j</li><li>FAISS</li><li>Streamlit</li></ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <a class="card-media" href="https://github.com/diyasharma05/Stock_Price_Prediction" target="_blank" rel="noopener" aria-label="Stock Price Prediction on GitHub">
+            <img src="assets/projects/stock.jpg" alt="Stacked LSTM predictions plotted over Apple closing prices" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <h3><a href="https://github.com/diyasharma05/Stock_Price_Prediction" target="_blank" rel="noopener">Stock Price Prediction</a></h3>
+            <p>A three-layer stacked LSTM on Apple daily closes with a 100-day window and a recursive 30-day forward forecast, with an honest look at where recursive forecasting breaks down.</p>
+            <ul class="tags"><li>TensorFlow</li><li>Keras</li><li>Time series</li></ul>
+          </div>
+        </article>
+
+        <article class="card">
+          <a class="card-media" href="https://github.com/diyasharma05/Self-Driving-Car-Project#3-multi-task-learning---mtan" target="_blank" rel="noopener" aria-label="MTAN multi-task learning on GitHub">
+            <img src="assets/projects/mtan.jpg" alt="Semantic segmentation overlaid on a Cityscapes street image" loading="lazy" />
+          </a>
+          <div class="card-body">
+            <h3><a href="https://github.com/diyasharma05/Self-Driving-Car-Project#3-multi-task-learning---mtan" target="_blank" rel="noopener">Multi-Task Attention Network</a></h3>
+            <p>One SegNet-based network predicting a segmentation map and a depth map at once, with Dynamic Weight Average balancing the two losses. Trained for 100 epochs on Cityscapes.</p>
+            <ul class="tags"><li>PyTorch</li><li>Multi-task learning</li><li>Cityscapes</li></ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== AWARDS ===================== -->
+    <section id="awards" class="section container reveal">
+      <div class="section-head">
+        <h2>Competitions &amp; awards</h2>
+        <p class="section-sub">Rooms I was glad to be in.</p>
+      </div>
+      <ul class="awards">
+        <li>
+          <span class="award-badge">Finalist</span>
+          <div>
+            <h3>Accenture Innovation Challenge 2026</h3>
+            <p>Built the Rationale.AI KPI engine with a four-level reasoning pyramid. Awarded a pre-placement interview.</p>
+          </div>
+        </li>
+        <li>
+          <span class="award-badge">PPO</span>
+          <div>
+            <h3>Intelligence Factory (YC 2026)</h3>
+            <p>Pre-placement offer after the founding-engineer internship.</p>
+          </div>
+        </li>
+        <li>
+          <span class="award-badge">Finalist</span>
+          <div>
+            <h3>Nautilus: Price Prediction, IIM Ahmedabad &amp; Adani Group</h3>
+            <p>Power demand and price forecasting with LSTM, BiLSTM and ARIMA on live grid data, reaching 4.7 MAPE.</p>
+          </div>
+        </li>
+        <li>
+          <span class="award-badge">Semi-finalist</span>
+          <div>
+            <h3>American Express Campus Challenge 2024</h3>
+            <p>Fraud detection with CatBoost, XGBoost and LightGBM: 92% precision and 23% fewer false positives.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <!-- ===================== PUBLICATIONS ===================== -->
+    <section id="publications" class="section container reveal">
+      <div class="section-head">
+        <h2>Publications</h2>
+        <p class="section-sub">Peer-reviewed, published by Springer.</p>
+      </div>
+      <ol class="pubs">
+        <li>
+          <h3><a href="https://doi.org/10.1007/978-981-99-7820-5_31" target="_blank" rel="noopener">A Machine Learning Approach to Optimize the Water Consumption for Irrigation of Rice Crop</a></h3>
+          <p class="pub-venue">R. Parikh and D. Sharma · 4th International Conference on Data Science and Applications (ICDSA 2023) · Lecture Notes in Networks and Systems, vol. 819, Springer, 2024 · <a href="https://doi.org/10.1007/978-981-99-7820-5_31" target="_blank" rel="noopener">doi:10.1007/978-981-99-7820-5_31</a></p>
+          <p>Predicts crop water needs with multiple regression and XGBoost on 13 years of weather data (92% accuracy, 8.53 mm/day RMSE), then combines forecast rainfall with crop-coefficient modelling to bring external water requirement down to 2.71%.</p>
+        </li>
+        <li>
+          <h3><a href="https://www.researchgate.net/publication/385349020_A_Robotic_Way_to_Investigate_Unapproachable_Places_and_Inaccessible_Substances_Using_e-skin" target="_blank" rel="noopener">A Robotic Way to Investigate Unapproachable Places and Inaccessible Substances Using E-Skin</a></h3>
+          <p class="pub-venue">2nd International Conference on Paradigms of Emerging Intelligent Systems (PEIS 2024) · Lecture Notes in Networks and Systems, vol. 1246, Springer, 2024 · <a href="https://www.researchgate.net/publication/385349020_A_Robotic_Way_to_Investigate_Unapproachable_Places_and_Inaccessible_Substances_Using_e-skin" target="_blank" rel="noopener">ResearchGate</a></p>
+          <p>Remote exploration of inaccessible environments with e-skin tactile sensing for pressure, temperature and chemical data, SLAM-based navigation for GPS-denied spaces, and cloud analysis of the multimodal sensor stream.</p>
+        </li>
+      </ol>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section id="skills" class="section container reveal">
+      <div class="section-head">
+        <h2>Skills</h2>
+        <p class="section-sub">Tools I reach for.</p>
+      </div>
+      <div class="skill-groups">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul class="chips"><li>Python</li><li>C</li><li>C++</li><li>SQL</li><li>R</li><li>MATLAB</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Machine learning &amp; data</h3>
+          <ul class="chips"><li>PyTorch</li><li>TensorFlow</li><li>scikit-learn</li><li>NumPy</li><li>Pandas</li><li>OpenCV</li><li>Hugging Face</li><li>spaCy</li><li>LangChain</li><li>XGBoost / LightGBM / CatBoost</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Data infrastructure &amp; cloud</h3>
+          <ul class="chips"><li>AWS (S3, SQS, Batch, EKS, RDS, ECR, IAM)</li><li>Kubernetes</li><li>Docker</li><li>Ray</li><li>PostgreSQL</li><li>ClickHouse</li><li>LanceDB</li><li>Grafana</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Robotics &amp; tools</h3>
+          <ul class="chips"><li>ROS</li><li>Gazebo</li><li>PyBullet</li><li>Git</li><li>Tableau</li><li>Redash</li><li>MCP</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section id="contact" class="section container reveal">
+      <div class="contact-card">
+        <h2>Let's talk</h2>
+        <p>Open to conversations about data systems, machine learning, robotics, or a good poem.</p>
+        <a class="btn btn-primary btn-lg" href="mailto:diyasharmaptl@gmail.com">diyasharmaptl@gmail.com</a>
+        <div class="contact-links">
+          <a href="https://github.com/diyasharma05" target="_blank" rel="noopener">GitHub</a>
+          <span aria-hidden="true">·</span>
+          <a href="https://www.linkedin.com/in/diya-sharma-6a2210272/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer container">
+    <p>© <span id="year"></span> Diya Sharma. Built with plain HTML and CSS, hosted on GitHub Pages.</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
